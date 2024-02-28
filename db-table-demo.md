@@ -13,4 +13,4 @@
 | Descrizione     | TEXT      | NULL                  |               | Descrizione dell'auto                                  |
 | Data Inserimento| DATE      | NOT NULL              | CURRENT_DATE  | Data di inserimento dell'annuncio                      |
 | Data Vendita    | DATE      | NULL                  |               | Data di vendita dell'auto                              |
-| Prenotata       | BOOLEAN   | NOT NULL              | FALSE         | Indica se l'auto è stata prenotata                    |
+| Prenotata       | BOOL/INT   | NOT NULL              | FALSE/ ( 0 )         | Indica se l'auto è stata prenotata                    |
